@@ -8,9 +8,10 @@ import pyautogui
 cont = True
 
 
-def terminate():
-    print('Automation Terminated')
-    cont = False
+# def terminate():
+#     print('Automation Terminated')
+#     cont = False
+#     exit()
 
 
 def automate():
@@ -33,7 +34,6 @@ def automate():
             time.sleep(5)
             # Locate the position of the join button on the screen
             position = pyautogui.locateOnScreen("join_button_1.png")
-            print(position)
             # Move the cursor to the position of the button
             pyautogui.moveTo(position)
             # Perform click operation
