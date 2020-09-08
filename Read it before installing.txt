@@ -5,7 +5,7 @@ A python script that automatically joins a zoom meeting based on your timetable.
 How to use?...
 
 1. Save this Folder in your desktop.
-2. From app folder Install VC_redist.x86 or VC_redist.x64 file whichever supports your system from the folder.
+2. Open App Folder and Install VC_redist.x86 from the folder.
 3. Now Update you time, Meeting ID, Passkey in meetingschedule.csv and save it.
 4. Update your Path in path.txt 
     - To get path right click on ZOOM click on "Open File Location".
